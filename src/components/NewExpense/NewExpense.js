@@ -8,10 +8,9 @@ const NewExpense = (props) => {
 	const saveExpenseDateHandler = (enteredExpenseData) => {
 		const expenseData = {
 			...enteredExpenseData,
-			id: (Math.random().toString() * 10).toFixed(),
+			id: Math.random().toString(),
 		}
 
-		console.log(expenseData)
 		props.onAddExpense(expenseData)
 	}
 

@@ -34,6 +34,7 @@ const App = () => {
       ...expensesList,
       expense
     ])
+
     console.log(expensesList);
   }
 
