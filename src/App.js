@@ -11,7 +11,12 @@ const App = () => {
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    { id: 'e2', title: 'New TV', amount: 799.49, date: new Date(2021, 2, 12) },
+    {
+      id: 'e2',
+      title: 'New TV',
+      amount: 799.49,
+      date: new Date(2021, 2, 12)
+    },
     {
       id: 'e3',
       title: 'Car Insurance',
@@ -31,8 +36,8 @@ const App = () => {
   const addExpenseHandler = expense => {
     console.log('in App.js');
     setExpensesList([
-      ...expensesList,
-      expense
+      expense,
+      ...expensesList
     ])
 
     console.log(expensesList);
