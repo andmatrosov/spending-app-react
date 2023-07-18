@@ -1,5 +1,9 @@
 # React Spending App — training project
 
+Приложение для учета расходов
+
+![Preview](https://github.com/andmatrosov/spending-app-react/blob/master/preview.png)
+
 Live Demo - [GitHub Pages](https://andmatrosov.github.io/spending-app-react/build/)
 
 # Getting Started with Create React App
